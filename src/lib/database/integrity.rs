@@ -411,7 +411,7 @@ impl IntegrityError {
     }
 }
 
-#[derive(Debug, Error, From)]
+#[derive(Debug)]
 pub struct IntegrityErrors {
     pub errors: Vec<IntegrityError>,
 }
